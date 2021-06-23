@@ -25,6 +25,9 @@
 
 }
 @media(max-width:1024px){
+    .header-right {
+    width: 100%;
+}
     .fixed-with {
         width: 100%;
         margin: auto;
