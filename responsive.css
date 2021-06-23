@@ -90,6 +90,11 @@
     .banner {
         padding: 150px 0;
     }
+    .blog-left-notificaiton {
+        
+        width: 100%;
+        text-align: center;
+    }
     .about h2 {
         font-size: 29px;
     }
