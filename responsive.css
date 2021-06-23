@@ -1,9 +1,11 @@
 
 
+
+
 @media(max-width:1200px){
     .header-left {
         
-        
+        width: 100%;
         text-align: center;
     }
     .fixed-with {
@@ -25,20 +27,17 @@
 
 }
 @media(max-width:1024px){
-    .header-right {
-    
-}
     .fixed-with {
         width: 100%;
         margin: auto;
     }
     .header-left {
-         
+        width: 100%;
         text-align: center;
         padding: 10px 0;
     }
     .header-right {
-         
+        width: 100%;
     }
     .header-right ul {
         text-align: center;
@@ -75,13 +74,31 @@
     .social-menu {
         text-align: center;
     }
+    .header-right {
+       
+        width: 100%;
+    }
 
 }
 @media(max-width:700px){
-    .header-right ul li a {         
+    .header-right {
+        float: right;
+        width: 100%;
+    }
+    .header-left {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .header-right ul li a {
+        
         font-size: 20px;
-        padding: 0px 22px;        
+       
         border-right: none;
+       
     }
     .banner-caption h2 {
         font-size: 25px;   
@@ -92,11 +109,6 @@
     }
     .banner {
         padding: 150px 0;
-    }
-    .blog-left-notificaiton {
-        
-        width: 100%;
-        text-align: center;
     }
     .about h2 {
         font-size: 29px;
@@ -111,6 +123,11 @@
     }
     .service-item h3 {
         font-size: 20px;
+    }
+    .blog-left-notificaiton {
+        
+        width: 100%;
+        text-align: center;
     }
 
 }
