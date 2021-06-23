@@ -26,6 +26,12 @@
     }
 
 }
+@media(max-width:1142px){
+    .header-left {
+        width: 30%;
+        text-align: center;
+    }
+}
 @media(max-width:1024px){
     .fixed-with {
         width: 100%;
